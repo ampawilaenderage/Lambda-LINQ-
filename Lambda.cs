@@ -38,8 +38,8 @@ namespace Lambda_LINQ
             mitarbeiterliste.Add(new Mitarbeiter("Schmidt", "Anna", Abteilung.Buchhaltung, 2876, "07.08.1974"));
             mitarbeiterliste.Add(new Mitarbeiter("Meier", "Franz", Abteilung.Vetrieb, 3255, "16.12.1958"));
             mitarbeiterliste.Add(new Mitarbeiter("Kiesling", "Susanne", Abteilung.Entwicklung, 3184, "20.11.2000"));
-            
-            LinqOperations linqQueries  = new LinqOperations();
+
+            LinqOperations linqQueries = new LinqOperations();
             MitarbeiterSort del = null;
             NumberSort delsort = null;
             // Assign methods from another class
@@ -55,9 +55,9 @@ namespace Lambda_LINQ
             //linqQueries.SortingGebursTag(mitarbeiterliste);
 
             RandomNumbers numbers = new RandomNumbers();
-            List<int> randomNumbers  = numbers.RandomList();
-            delsort += numbers.SortingNumbers; 
-            delsort += numbers.SortingDescNumbers; 
+            List<int> randomNumbers = numbers.RandomList();
+            delsort += numbers.SortingNumbers;
+            delsort += numbers.SortingDescNumbers;
             delsort += numbers.NumbersLessthan;
             delsort(randomNumbers);
 
@@ -103,7 +103,7 @@ namespace Lambda_LINQ
         }
 
         class LinqOperations
-        {           
+        {
             public void ListNames(List<Mitarbeiter> mitarbeiterliste)
             {
                 // LINQ query: get all last names
@@ -144,14 +144,14 @@ namespace Lambda_LINQ
                 foreach (var mitarbeiter in sortierteMitarbeiter)
                 {
                     Console.WriteLine($"{mitarbeiter.Abteilung} - {mitarbeiter.Vorname} {mitarbeiter.Name}");
-                }
+                } // test 1
             }
 
             internal void SortingGebursTag(List<Mitarbeiter> mitarbeiterliste)
             {
                 var augustGeburtstage = mitarbeiterliste
-                                        .Where(m => m.Geburtstag.Month == 8) 
-                                        .OrderByDescending(m => m.Geburtstag.Day); 
+                                        .Where(m => m.Geburtstag.Month == 8)
+                                        .OrderByDescending(m => m.Geburtstag.Day);
 
                 foreach (var mitarbeiter in augustGeburtstage)
                 {
