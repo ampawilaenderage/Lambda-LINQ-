@@ -1,0 +1,14 @@
+C:\Users\IBBHome\source\repos\Lambda&LINQ\bin\Debug\net8.0\Lambda&LINQ.exe
+C:\Users\IBBHome\source\repos\Lambda&LINQ\bin\Debug\net8.0\Lambda&LINQ.deps.json
+C:\Users\IBBHome\source\repos\Lambda&LINQ\bin\Debug\net8.0\Lambda&LINQ.runtimeconfig.json
+C:\Users\IBBHome\source\repos\Lambda&LINQ\bin\Debug\net8.0\Lambda&LINQ.dll
+C:\Users\IBBHome\source\repos\Lambda&LINQ\bin\Debug\net8.0\Lambda&LINQ.pdb
+C:\Users\IBBHome\source\repos\Lambda&LINQ\obj\Debug\net8.0\Lambda&LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IBBHome\source\repos\Lambda&LINQ\obj\Debug\net8.0\Lambda&LINQ.AssemblyInfoInputs.cache
+C:\Users\IBBHome\source\repos\Lambda&LINQ\obj\Debug\net8.0\Lambda&LINQ.AssemblyInfo.cs
+C:\Users\IBBHome\source\repos\Lambda&LINQ\obj\Debug\net8.0\Lambda&LINQ.csproj.CoreCompileInputs.cache
+C:\Users\IBBHome\source\repos\Lambda&LINQ\obj\Debug\net8.0\Lambda&LINQ.dll
+C:\Users\IBBHome\source\repos\Lambda&LINQ\obj\Debug\net8.0\refint\Lambda&LINQ.dll
+C:\Users\IBBHome\source\repos\Lambda&LINQ\obj\Debug\net8.0\Lambda&LINQ.pdb
+C:\Users\IBBHome\source\repos\Lambda&LINQ\obj\Debug\net8.0\Lambda&LINQ.genruntimeconfig.cache
+C:\Users\IBBHome\source\repos\Lambda&LINQ\obj\Debug\net8.0\ref\Lambda&LINQ.dll
