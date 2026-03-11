@@ -144,7 +144,7 @@ namespace Lambda_LINQ
                 foreach (var mitarbeiter in sortierteMitarbeiter)
                 {
                     Console.WriteLine($"{mitarbeiter.Abteilung} - {mitarbeiter.Vorname} {mitarbeiter.Name}");
-                } // test 1
+                } 
             }
 
             internal void SortingGebursTag(List<Mitarbeiter> mitarbeiterliste)
